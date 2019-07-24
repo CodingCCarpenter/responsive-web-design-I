@@ -234,8 +234,6 @@ aside{
     .mainImg{
         display: none;
     }
-
-
     .mainNav .logo{
          order: -1;
          display: block;
@@ -245,10 +243,9 @@ aside{
          animation: spin;
          animation-duration: 0s;
         }
-    
-        }
+    }
 @media(max-width: 500px){
-    .container{
+    .container, .container2{
         width: 95%;
         font-size: 0.8em;
     }
@@ -290,7 +287,15 @@ aside{
         text-align: left;
     }
     h2{margin-top: 6%;}
-    
+    .container2 div{
+        flex-direction: column;
+        width: 90%;
+        margin: 1em 0 1em 0;
+        wrap: nowrap;
+    }
+    .services-info-img{
+        display: none;
+    }
 
 }
 
