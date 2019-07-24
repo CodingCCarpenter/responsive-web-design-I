@@ -214,7 +214,7 @@ aside{
 	height: 50%;
 }
 
-@media(max-width: 768px){
+@media(max-width: 800px){
     body{
         width: 95%;
     }
@@ -222,16 +222,45 @@ aside{
         display: none;
     }
 
-     .mainNav .logo{
+
+    .mainNav .logo{
          order: -1;
          display: block;
          margin: 0 38%;
          align-self: center;
-         padding-bottom: 5%;
+         padding-bottom: 3%;
         }
     
-    
         }
+@media(max-width: 500px){
+    .container{width: 95%;}
+    .mainNav{flex-direction: column;}
+    .mainNav a{
+        border-bottom: 1px solid lightgray;
+        padding: 3% 0 3% 0;
+        width: 95%;
+        text-align: center;
+    }
+    .mainNav .logo{
+        margin: 0 auto;
+        width: 25%;
+    }
+    .mainNav a:first-of-type{
+        border-top: 1px solid black;
+    }
+    h1{
+        width: 65%;
+    }
+    .button{
+        border: 1px solid black;
+        background: white;
+        padding: 2% 8% 2% 8%;
+    }
+    .section{
+        width: 90%;
+    }
     
+
+}
 
 
