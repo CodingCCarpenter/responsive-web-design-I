@@ -245,6 +245,7 @@ aside{
         margin: 0 auto;
         width: 25%;
     }
+   
     .mainNav a:first-of-type{
         border-top: 1px solid black;
     }
@@ -256,8 +257,11 @@ aside{
         background: white;
         padding: 2% 8% 2% 8%;
     }
-    .section{
-        width: 90%;
+    .threeCol{
+        flex-direction: column;
+    }
+    .twoCol{
+        flex-direction: column;
     }
     
 
