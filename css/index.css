@@ -178,6 +178,10 @@ hr{
 	height: 23%;
 	margin-right: 5%;	
 }
+select, input, textarea{
+    padding: 2% 5% 2% 5%;
+    margin: 2%;
+}
 .container2 h1{
 	font-size: 100%;
 	text-align: left;
@@ -283,22 +287,9 @@ aside{
         margin: 0 auto;
         width: 25%;
     }
-    input{
-        width: 80%;
-        padding: 2% 5% 2% 5%;
-        margin: 2%;
-    }
-    textarea{
-        width: 80%;
-        padding: 2% 5% 2% 5%;
-        margin: 2%;
-    }
-    select{
-        width: 40%;
-        padding: 2% 5% 2% 5%;
-        margin: 2%
-    }
-   
+    input{width: 80%;}
+    textarea{width: 80%;}
+    select{width: 40%;}   
     .mainNav a:first-of-type{
         border-top: 1px solid black;
     }
