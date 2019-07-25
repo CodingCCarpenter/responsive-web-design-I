@@ -84,8 +84,9 @@ a{
 	color: gray;
 	text-decoration: none;
     font-size: 1.1 em;
-    padding: 1% 3% 1% 3%;
     width: 10%;
+    text-align: center;
+    padding 2% 4% 2% 4%;
 }
 a:hover{
     background: black;
@@ -98,6 +99,20 @@ a:hover{
 	align-items: center;
 	padding: 10px;
 	margin-right: 6%
+}
+textarea{
+    width: 60%;
+    padding: 2% 5% 2% 5%;
+    margin: 2%;
+    height: 15%
+}
+.contact{
+    width: 90%;
+	height: 35%;
+	margin:3% 5% 3% 5%;
+}
+.main{
+    width: 95%
 }
 
 h1{
@@ -172,6 +187,9 @@ hr{
 	margin-left: 8%;
 	margin-right: 8%;	
 }
+.container2{
+    padding: 3%;
+}
 .container2 hr{
 	 width: 95%;
 	 border: 1px solid black;
@@ -245,6 +263,9 @@ aside{
          animation: spin;
          animation-duration: 0s;
         }
+    .contact-header-img{
+            display: none;
+        }
     }
 @media(max-width: 500px){
     .container, .container2{
@@ -261,6 +282,21 @@ aside{
     .mainNav .logo{
         margin: 0 auto;
         width: 25%;
+    }
+    input{
+        width: 80%;
+        padding: 2% 5% 2% 5%;
+        margin: 2%;
+    }
+    textarea{
+        width: 80%;
+        padding: 2% 5% 2% 5%;
+        margin: 2%;
+    }
+    select{
+        width: 40%;
+        padding: 2% 5% 2% 5%;
+        margin: 2%
     }
    
     .mainNav a:first-of-type{
@@ -296,6 +332,9 @@ aside{
         wrap: nowrap;
     }
     .services-info-img{
+        display: none;
+    }
+    .contact-header-img{
         display: none;
     }
 
