@@ -234,6 +234,7 @@ aside{
     .mainImg{
         display: none;
     }
+    
     .mainNav .logo{
          order: -1;
          display: block;
