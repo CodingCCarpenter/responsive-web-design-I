@@ -1,3 +1,334 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container, .container2{
+	margin-left: 8%;
+	margin-right: 3%;
+	margin-top: 5%
+}
+nav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+nav img{
+	align-items: center;
+	
+}
+
+a{
+	list-style-type: none;
+	color: gray;
+	text-decoration: none;
+    font-size: 1.1 em;
+    width: 10%;
+    text-align: center;
+    padding 2% 4% 2% 4%;
+}
+a:hover{
+    background: black;
+    color: white;
+}
+
+.header-button{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	margin-right: 6%
+}
+textarea{
+    width: 60%;
+    padding: 2% 5% 2% 5%;
+    margin: 2%;
+    height: 15%
+}
+.contact{
+    width: 90%;
+	height: 35%;
+	margin:3% 5% 3% 5%;
+}
+.main{
+    width: 95%
+}
+
+h1{
+	font-size: 500%;
+	text-align: center;
+}
+
+header .first-row{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.button{
+	padding: 10px 30px 10px 30px;
+	font-size: 1.1em;
+	border: 2px solid black;
+	text-align: center;
+}
+.logo{
+    animation: spin;
+    animation-duration: 3s;
+}
+@keyframes spin{
+    from{ transform: rotate(0deg)}
+    to{ transform: rotate(360deg)}
+}
+hr{
+	height: 2px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+.threeCol{
+	display:flex;
+	justify-content: space-between;
+	text-align: justify;
+	margin: 10px;
+}
+.twoCol{
+	display: flex;
+	justify-content: space-between;
+	text-align: justify;
+}
+
+.container section{
+	display: flex;
+	flex-direction: column;
+	padding-right: 4%;	
+}
+#middle-img{
+	width: 95%;
+	height: 23%;
+	margin-right: 30px;
+}
+.copyright{
+	text-align: center;
+	width: 100%;
+}
+.services-header-img{
+	width: 95%;
+	height: 23%;
+	margin-right: 5%;	
+}
+select, input, textarea{
+    padding: 2% 5% 2% 5%;
+    margin: 2%;
+}
+.container2 h1{
+	font-size: 100%;
+	text-align: left;
+	margin-top: 5%;
+}
+.container2{
+	margin-left: 8%;
+	margin-right: 8%;	
+}
+.container2{
+    padding: 3%;
+}
+.container2 hr{
+	 width: 95%;
+	 border: 1px solid black;
+	 margin-left: 0;
+}
+aside{
+	text-align: justify;
+	width: 95%
+}
+.container2 section{
+	display: flex;
+	justify-content: space-evenly;
+	align-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;	
+}
+
+.container2 div{
+	width: 45%;
+	margin: 2% 5% 2% 0
+}
+.container2  main div{
+	border: 1px solid black;
+	padding: 2%;
+	background: #F0F0F0;
+}
+.container2 button{
+	margin: 15px 0 15px 0;
+	padding: 8px 30px 8px 30px;
+	border-radius: 4px;
+	background: white;
+	border: 1px solid black;
+}
+.container2 ul{
+	list-style-type: disc;
+	list-style-position: inside; 
+}
+
+.container2 ul li{
+	margin: 10px 0 10px 0;
+}
+.services-info-img{
+	width: 100%;
+}
+.facts-row{
+	background: none;
+}
+.container2 h2{
+	margin-bottom: 30px;
+}
+.container2 .features-header-img{
+	width: 95%;
+	height: 50%;
+}
+
+@media(max-width: 800px){
+    body{
+        width: 95%;
+    }
+    .mainImg{
+        display: none;
+    }
+    
+    .mainNav .logo{
+         order: -1;
+         display: block;
+         margin: 0 38%;
+         align-self: center;
+         padding-bottom: 3%;
+         animation: spin;
+         animation-duration: 0s;
+        }
+    .contact-header-img{
+            display: none;
+        }
+    }
+@media(max-width: 500px){
+    .container, .container2{
+        width: 95%;
+        font-size: 0.8em;
+    }
+    .mainNav{flex-direction: column;}
+    .mainNav a{
+        border-bottom: 1px solid lightgray;
+        padding: 3% 0 3% 0;
+        width: 95%;
+        text-align: center;
+    }
+    .mainNav .logo{
+        margin: 0 auto;
+        width: 25%;
+    }
+    input{width: 80%;}
+    textarea{width: 80%;}
+    select{width: 40%;}   
+    .mainNav a:first-of-type{
+        border-top: 1px solid black;
+    }
+    h1{width: 65%;}
+    .button{
+        border: 1px solid black;
+        background: white;
+        padding: 2% 8% 2% 8%;
+    }
+    .button:hover{
+        background: lightslategray;
+        border: 1px solid darkblue;
+    }
+    .threeCol{
+        flex-direction: column;
+        width: 95%;
+        margin: 1em 0 1em 0;
+        text-align: left;
+    }
+    .twoCol{
+        flex-direction: column;
+        width: 95%;
+        margin: 1em 0 1em 0;
+        text-align: left;
+    }
+    h2{margin-top: 6%;}
+    .container2 div{
+        flex-direction: column;
+        width: 90%;
+        margin: 1em 0 1em 0;
+        wrap: nowrap;
+    }
+    .services-info-img{
+        display: none;
+    }
+    .contact-header-img{
+        display: none;
+    }
+
+}
 
 
